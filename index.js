@@ -1,5 +1,6 @@
 // Write your code here!
-let element = document.body
+let element =document.createElement('h1')
+
 
 element.querySelector("main#main").remove()
 

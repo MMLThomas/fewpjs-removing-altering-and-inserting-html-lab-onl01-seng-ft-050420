@@ -3,7 +3,7 @@ let element = document.body
 
 element.querySelector("main#main").remove()
 
-let header = document.createElement('newHeader')
+let newHeader = document.createElement('h1')
 
-header.appendChild("h1#victory")
+newHeader.id = "victory"
 
